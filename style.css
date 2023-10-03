@@ -1,0 +1,75 @@
+body{
+    background-color: #414141;
+    color: #fff;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: aqua; */
+    height: 50vh;
+}
+.again-btw{
+   /* align-content: flex-end; */
+   position: fixed;
+   top: 10px;
+   left: 15px;
+   font-weight: 900;
+   font-size: 30px;
+}
+.between{
+    position: fixed;
+    top: 0%;
+    right: 5%;
+    font-size: 20px;
+}
+.number{
+    border-bottom: 5px solid #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.header>h1{
+    position: absolute;
+    top: 10%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background: #000; */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+#guess-num{
+    padding: 25px;
+    border: 5px solid #fff;
+    background-color: #414141;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.check-num{
+    margin-top: 15px;
+    padding: 25px;
+    font-size: 25px;
+    
+}
+.right{
+    /* background-color: black; */
+    position: relative;
+    top: 0px;
+    font-size: 30px;
+}
+.message{
+    /* background-color: aqua; */
+    margin-top: 2%;
+}
